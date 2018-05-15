@@ -1,0 +1,16 @@
+{
+  "name": "api-swapi",
+  "version": "1.0.0",
+  "description": "Nos entregaron una api, y nos pidieron poder realizar con toda la información dada una app web donde los usuarios puedan visualizar a todos los personajes de Star Wars que al darle click aparecera un model con la informacion del personaje.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Laura Jimenez",
+  "license": "ISC"
+}

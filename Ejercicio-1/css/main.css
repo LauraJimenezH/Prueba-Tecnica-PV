@@ -1,0 +1,22 @@
+* {
+  font-size: 25px;
+}
+
+body {
+  background-color: #eee;
+}
+
+main .button-guardar,
+input,
+.indicacion {
+  display: none;
+}
+
+.array {
+  display: inline-block;
+}
+
+main.container input,
+.divArray {
+  margin: 20px;
+}

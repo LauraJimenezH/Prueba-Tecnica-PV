@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Números</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+</head>
+
+<body>
+  <main class="row container center-align">
+    <!-- Título -->
+    <h2 class="col l4 m4 offset-l4 offset-m4 s8 offset-s2">Arrays</h2>
+    <!-- Botones Editar y Guardar -->
+    <button class="button-editar btn col l2 offset-l5 m4 offset-m4 s6 offset-s3">Editar Array</button>
+    <button class="btn button-guardar col l2 offset-l5 m4 offset-m4 s6 offset-s3" disabled>Guardar Array</button>
+    <!-- Array y input -->
+    <div class="card col l10 offset-l1 m10 offset-m1 s12 text-center">
+      <p class="indicacion">Ingresé solo números, separados por una coma.</p>
+      <input placeholder="Ejemplo: 1,11,99,777 Min 2 números" class="input col l4 offset-l4 m4 offset-m4 s6 offset-s3" type="text">
+      <div class="divArray">[
+        <div class="array">13,42,565,1,26,75</div>
+        ]</div>
+    </div>
+    <!-- Botón Obtener-->
+    <button class="button-salida btn col l6 offset-l3 m6 offset-m3 s6 offset-s3" disabled>Obtener</button>
+    <!-- Contenido de Número impar mayor -->
+    <div class="col l6 offset-l3 m8 offset-m2 s12">Numero impar mayor:
+      <h4 class="num-mayor-impar">565</h4>
+    </div>
+    <!-- Contenido de Número menor -->
+    <div class="col l6 offset-l3 m8 offset-m2 s12">Numero menor:
+      <h4 class="num-menor">1</h4>
+    </div>
+    <!-- Contenido de Número segundo mayor -->
+    <div class="col l6 offset-l3 m8 offset-m2 s12">Numero mayor segundo:
+      <h4 class="num-mayor-segundo">75</h4>
+    </div>
+
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
