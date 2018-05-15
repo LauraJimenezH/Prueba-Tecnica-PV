@@ -16,4 +16,6 @@
 
 ## Link de la página: 
 
+- [Ingrese aquí](https://laurajimenezh.github.io/Prueba-Tecnica-PV/Ejercicio-2/public/)
+
 ## Autora: Laura Jimenez.
