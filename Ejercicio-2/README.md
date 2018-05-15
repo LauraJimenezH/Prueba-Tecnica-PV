@@ -1,6 +1,6 @@
 # Star Wars
 
-![Resultado](assets/docs/resultado.png)
+![Resultado](public/assets/docs/resultado.png)
 
 ## Objetivo: 
 
